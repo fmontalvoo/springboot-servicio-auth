@@ -1,11 +1,11 @@
-package com.fmontalvoo.springboot.app.auth.repository;
+package com.fmontalvoo.springboot.app.usuarios.repository;
 
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 import org.springframework.data.rest.core.annotation.RestResource;
 
-import com.fmontalvoo.springboot.app.auth.model.Usuario;
+import com.fmontalvoo.springboot.commons.models.Usuario;
 
 @RepositoryRestResource(path = "usuarios")
 public interface UsuarioRepository extends PagingAndSortingRepository<Usuario, Long> {
