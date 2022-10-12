@@ -1,5 +1,5 @@
-insert into usuarios(email, username, password, nombre, apellido, activo) values ('fgmo@mail.com', 'fgmo', 'abc.123', 'Frank', 'Montalvo', 1);
-insert into usuarios(email, username, password, nombre, apellido, activo) values ('test@mail.com', 'test', 'abc.123', 'Test', 'Test', 1);
+insert into usuarios(email, username, password, nombre, apellido, activo) values ('fgmo@mail.com', 'fgmo', '$2a$10$BgEQ1jX5TsZepPsmiWUIjuGw.t22Ul1n5h9AC.liLNUc14m0Rrsoq', 'Frank', 'Montalvo', 1);
+insert into usuarios(email, username, password, nombre, apellido, activo) values ('test@mail.com', 'test', '$2a$10$O2SFrG1gViwJwBls1V6h0erkX5wdWV27bwgrlle1Nh3mlowcQmRfi', 'Test', 'Test', 1);
 
 insert into roles(nombre) values('ROLE_USER');
 insert into roles(nombre) values('ROLE_ADMIN');
